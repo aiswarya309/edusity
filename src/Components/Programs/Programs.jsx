@@ -7,29 +7,29 @@ import program_icon_3 from '../../assets/graduation.png'
 
 
 export const Programs = () => {
-  return (
-    <div className='programs'>
-<div className="program">
-    <img src={program_1} alt=''/>
-    <div className='caption'>
-        <img src={program_icon_3} alt="" />
-        <p> Graduation Degree</p>
-    </div>
-</div>
-<div className="program">
-    <img src={program_2} alt=''/>
-    <div className='caption'>
-        <img src={program_icon_3} alt="" />
-        <p> Master Degree</p>
-    </div>
-</div>
-<div className="program">
-    <img src={program_3} alt=''/>
-    <div className='caption'>
-        <img src={program_icon_3} alt="" />
-        <p> Post Graduation</p>
-    </div>
-</div>
-    </div>
-  )
+    return (
+        <div className='programs'>
+            <div className="program">
+                <img src={program_1} alt='' />
+                <div className='caption'>
+                    <img src={program_icon_3} alt="" />
+                    <p> Graduation Degree</p>
+                </div>
+            </div>
+            <div className="program">
+                <img src={program_2} alt='' />
+                <div className='caption'>
+                    <img src={program_icon_3} alt="" />
+                    <p> Master Degree</p>
+                </div>
+            </div>
+            <div className="program">
+                <img src={program_3} alt='' />
+                <div className='caption'>
+                    <img src={program_icon_3} alt="" />
+                    <p> Post Graduation</p>
+                </div>
+            </div>
+        </div>
+    )
 }
